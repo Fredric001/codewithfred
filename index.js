@@ -89,3 +89,9 @@ $(document).ready(function () {
       }
     });
   });
+  document.addEventListener("keydown",function(e){
+    if(e.key==="PrintScreen"){
+      alert("Screenshot or recording are disabled")
+      e.preventDefault();
+    }
+  })
